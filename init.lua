@@ -138,6 +138,7 @@ require('lazy').setup({
   {
     -- Add indentation guides (`:help indent_blankline.txt`)
     'lukas-reineke/indent-blankline.nvim',
+    tag = "v2.20.8",
     opts = {
       char = '┊',
       show_trailing_blankline_indent = false,
@@ -465,7 +466,7 @@ end
 
 -- Enable the following language servers. They will automatically be installed.
 local servers = {
-  -- gopls = {},
+  gopls = {},
   -- pyright = {},
 
   clangd = {},
